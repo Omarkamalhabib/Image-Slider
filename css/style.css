@@ -1,0 +1,34 @@
+.img-caption{
+    bottom: 20px;
+    width: 80%;
+    left: 10%;
+}
+.item{
+    cursor: pointer;
+}
+#lightBox{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.7);
+}
+#lightBoxImage{
+    width: 50%;
+    height: 550px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-position: center center;
+    position: relative;
+    padding: 20px;
+}
+i{
+    font-size: 25px;
+    cursor: pointer;
+}
+#close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
